@@ -1,0 +1,18 @@
+{
+  "name": "lentyjs",
+  "version": "0.0.1",
+  "description": "Background effects",
+  "main": "src/index.ts",
+  "files": ["dist", "src"],
+
+  "scripts": {
+    "test": "test",
+    "build": "tsc --module commonjs",
+    "preversion": "npm run build"
+  },
+  "author": "JasonLandbridge",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
